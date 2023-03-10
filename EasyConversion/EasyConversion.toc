@@ -1,7 +1,7 @@
 ﻿## Interface: 100005
 ## Title: EasyConversion
 ## Notes: 游戏内聊天系统简繁转换(制作: Etern)
-## Version: 1.0.7
+## Version: 1.0.8
 ## Author: Etern
 
 core.lua

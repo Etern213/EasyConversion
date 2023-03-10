@@ -1,7 +1,7 @@
 ﻿## Interface: 100005
 ## Title: EasyConversion
 ## Notes: 將聊天視窗中的簡體字轉換成繁體，看起來更輕鬆(製作: Etern)
-## Version: 1.0.7-TraditionalVersion
+## Version: 1.0.8-TraditionalVersion
 ## Author: Etern
 
 core.lua
