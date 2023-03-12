@@ -98,6 +98,8 @@ local SendChatMessage_Origin = SendChatMessage
 do
     SendChatMessage = function(msg, ...)
         local temp = StringtoTable(msg)
+        if not temp then SendChatMessage_Origin(msg, ...) return end
+        
         for j = 1, #temp do
             temp[j] = s_t[temp[j]] or temp[j]
         end
