@@ -42,7 +42,7 @@ local function StringtoTable(str)
             local skipstrIndex = SkipSquareBrackets(str, currentstrIndex, strlen)
             result[currentresultIndex] = str:sub(currentstrIndex, skipstrIndex or currentstrIndex)
             currentresultIndex = currentresultIndex + 1
-            currentstrIndex = (skipstrIndex + 1) or (currentstrIndex + 1)
+            currentstrIndex = (skipstrIndex and (skipstrIndex + 1)) or (currentstrIndex + 1)
         end
         if currentstrIndex > strlen then break end
     end
